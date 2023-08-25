@@ -15,9 +15,9 @@ const footer = () => {
                     <Col xs='12' md='4'>
                         <p> <img src={logo2} className='logo2' alt="logo-footer" /></p>
                         <p>
-                            <a className='btn' href='https://www.instagram.com/francaiseasy_/?igshid=MzRlODBiNWFlZA%3D%3D' target='_blank'><img src={insta} alt='Instagram' /></a>
-                            <a className='btn' href='https://www.linkedin.com/company/fran%C3%A7aiseasy-centre-de-francophiles/' target='_blank'><img src={lnkdn} alt='Linkednin' /></a>
-                            <a className='btn' href='https://wa.me/7303094335' target='_blank'><img src={wtsp} alt='Whatsapp' /></a>
+                            <a className='btn' href='https://www.instagram.com/francaiseasy_/?igshid=MzRlODBiNWFlZA%3D%3D' ><img src={insta} alt='Instagram' /></a>
+                            <a className='btn' href='https://www.linkedin.com/company/fran%C3%A7aiseasy-centre-de-francophiles/' ><img src={lnkdn} alt='Linkednin' /></a>
+                            <a className='btn' href='https://wa.me/7303094335' ><img src={wtsp} alt='Whatsapp' /></a>
                         </p>
                     </Col>
                     <Col xs='12' md='8'>
