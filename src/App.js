@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Headercomp from './Headercomp';
+import Levels from './LevelsModule';
+import TopModule from './TopModule';
+import Founder from './FounderModule';
+import Testimonial from'./TestimonialsModule'
+import ContactForm from './contact';
+import Footercomp from './Footercomp';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+     <Headercomp></Headercomp>
+     <TopModule></TopModule>
+     <Levels></Levels>
+     <Founder></Founder>
+     <Testimonial></Testimonial>
+     <ContactForm></ContactForm>
+     <Footercomp></Footercomp>
     </div>
   );
 }

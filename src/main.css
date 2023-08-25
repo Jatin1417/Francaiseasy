@@ -1,0 +1,211 @@
+.A1, .A2, .B1, .B2{
+    width: 90px;
+   
+}
+.card-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.grid-stack{
+    align-items: center;
+    justify-content: center;
+    background-color: #d7fae8;
+}
+.level-p{
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.Levels{
+    background-image: url('./images/Background.jpg');
+    display: flex;
+    min-height: 440px;
+    background-color: #e77fff30;
+    padding-bottom: 5rem;
+    padding-top: 3rem;
+    background-size: cover;
+}
+body{
+    background-color: aliceblue;
+}
+.Top-Module{
+     padding-top: 5rem;
+     padding-bottom: 5rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     min-height: 300px;
+     margin-bottom: 5rem;
+}
+.top{
+    background-image: url('./images/France.jpg');
+    background-size: cover;
+    color: #fff;
+    font-weight: bold;
+}
+.top-img{
+    width: 300px;
+    height: 100%;
+    border-radius: 60%;
+}
+.top-text{
+    background-color: #941C66;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 22px;
+    font-family: 'Franklin Gothic', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    border-radius: 5px;
+    padding: 25px;
+}
+
+.Founder-img{
+    background-image: url('./images/Aastha.JPG');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    min-height: 600px;
+    margin-top: 5rem;
+}
+.Founder-info{
+    color: #fff;
+    text-align: center;
+}
+.Founder-info-div{
+    background-color: #941C66;
+    padding: 20px;
+}
+.Head-founder{
+    color: #fff;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.Test-img{
+    height: 150px;
+}
+.Test-img-div{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.Test-Module{
+    padding: 50px;
+    margin-top: 5rem;
+    background-color: #e77fff30;
+    background-image: url('./images/Background.jpg');
+    background-size: cover;
+    background-position: top center;
+}
+.test-div{
+    display: flex;
+    margin-bottom: 20px;
+}
+.test-div .testimonial-para{
+    padding: 20px;
+    margin: 20px;
+    background-color: #d7fae8;
+}
+.heading{
+    font-size: 32px;
+    color: #941C66;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.test-section{
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+.form{
+    background-color: aliceblue;
+    padding: 40px !important;
+    color:#941C66;
+    font-weight: bold !important;
+    box-shadow: #941C66;
+    margin-right: 30px !important;
+    border-radius: 10px !important;
+}
+.contact{
+   margin: 5rem 0;
+   display: flex;
+   align-items: center;
+   height: 550px;
+   background-image: url('./images/contact.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-color: #ac269d;
+}
+.footer{
+    background-color: #941C66;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+}
+.logo2{
+    width: 180px;
+}
+.tag-line{
+    font-weight: bold;
+    color: #fff;
+    font-size: 16px;
+}
+
+@media only screen and (max-width:768px) {
+    .heading{
+        font-size: 20px;
+    }
+    .top-img{
+        width: 130px;
+    }
+    .top-text{
+        font-size: 16px;
+    }
+    .grid-card{
+        max-width: 300px;
+    }
+    .Levels{
+        padding-left: auto;
+    }
+    .grid{
+        justify-content: center;
+        align-items: center;
+        display: flex;
+    }
+    .Head-founder{
+        font-size: 26px;
+    }
+    .Founder-img{
+        height: 900px;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .test-div{
+        display: block;
+
+    }
+    .test-div .testimonial-para{
+       margin: 20px 0;
+       text-align: center;
+       width: 100%;
+    }
+    .top-text{
+        margin-top: 50px
+    }
+    .top-img-mobile{
+        display: flex;
+        justify-content: left;
+    }
+    .form{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contact{
+        background-position: top right;
+    }
+}

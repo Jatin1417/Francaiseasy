@@ -1,0 +1,34 @@
+
+.header-comp .btn{
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+ 
+}
+.toolbar .btn:hover{
+  color: aqua;
+  background-color: aliceblue;
+}
+.toolbar .logo{
+  height: 64px;
+}
+.btn img{
+  width: 30px;
+}
+.header-comp{
+  display: flex;
+  align-items: center;
+}
+.Header{
+  background-color: #fff !important;
+}
+@media only screen and (max-width:768px) {
+  .header-comp .logo{
+    background-color: #fff;
+  }
+  .header-comp{
+    display: block;
+  }
+ 
+}
