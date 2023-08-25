@@ -15,13 +15,13 @@ const footer = () => {
                     <Col xs='12' md='4'>
                         <p> <img src={logo2} className='logo2' alt="logo-footer" /></p>
                         <p>
-                            <button className='btn'><img src={insta} alt='Instagram' /></button>
-                            <button className='btn'><img src={lnkdn} alt='Linkednin' /></button>
-                            <button className='btn'><img src={wtsp} alt='Whatsapp' /></button>
+                            <a className='btn' href='https://www.instagram.com/francaiseasy_/?igshid=MzRlODBiNWFlZA%3D%3D' target='_blank'><img src={insta} alt='Instagram' /></a>
+                            <a className='btn' href='https://www.linkedin.com/company/fran%C3%A7aiseasy-centre-de-francophiles/' target='_blank'><img src={lnkdn} alt='Linkednin' /></a>
+                            <a className='btn' href='https://wa.me/7303094335' target='_blank'><img src={wtsp} alt='Whatsapp' /></a>
                         </p>
                     </Col>
                     <Col xs='12' md='8'>
-                    <p class='tag-line'>With Francaiseasy, you can be sure to get the best French language education in the most convenient way possible. Choose us and you'll be on your way to mastering the French language in no time.</p>
+                        <p class='tag-line'>With Francaiseasy, you can be sure to get the best French language education in the most convenient way possible. Choose us and you'll be on your way to mastering the French language in no time.</p>
                     </Col>
                 </Row>
             </Container>
