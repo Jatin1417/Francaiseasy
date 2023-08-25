@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.4a4a77b0.css",
+    "main.js": "/static/js/main.3cc1ad2e.js",
+    "static/media/France.jpg": "/static/media/France.cb91e430f351f977af8d.jpg",
+    "static/media/Aastha.JPG": "/static/media/Aastha.beac04e41c81ebcc05d4.JPG",
+    "static/media/Background.jpg": "/static/media/Background.3fd086e920f44e83229a.jpg",
+    "static/media/Test1.jpeg": "/static/media/Test1.e4b9348e2f3a729b8550.jpeg",
+    "static/media/contact.jpg": "/static/media/contact.d444babe5a1e0c8d8fa9.jpg",
+    "static/media/instagram.png": "/static/media/instagram.e719d8b29f452a16302d.png",
+    "static/media/logo-contact.png": "/static/media/logo-contact.aeaddb5bbac325e95893.png",
+    "static/media/logo.jpg": "/static/media/logo.05b8fae9e90749b3eb46.jpg",
+    "static/media/whatsapp.png": "/static/media/whatsapp.1dd8ca2765f1f177ab22.png",
+    "static/media/linkedin.png": "/static/media/linkedin.f249b38224ca41a0b909.png",
+    "static/media/B1.png": "/static/media/B1.3dbc86a9cc48b048731e.png",
+    "static/media/A2.png": "/static/media/A2.4f23d17fb54c461a4fd4.png",
+    "static/media/B2.png": "/static/media/B2.d4b6be442cf7d920a63c.png",
+    "index.html": "/index.html",
+    "main.4a4a77b0.css.map": "/static/css/main.4a4a77b0.css.map",
+    "main.3cc1ad2e.js.map": "/static/js/main.3cc1ad2e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a4a77b0.css",
+    "static/js/main.3cc1ad2e.js"
+  ]
+}
