@@ -57,18 +57,20 @@
   .header-comp{
     display: block;
     width: 100%;
+    padding: 0;
   }
   header .container{
     padding: 0;
     background-color: #1C75BC;
+    border-bottom: 2px solid #fff;
   }
   .css-hyum1k-MuiToolbar-root {
     padding: 0 !important;
+    width: 100%;
   }
   .logo-container{
     display: flex;
     width: 100%;
-    border-bottom: 2px solid #fff;
   }
   .menu{
     display: block;
