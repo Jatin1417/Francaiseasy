@@ -4,6 +4,7 @@
   border: none;
   cursor: pointer;
   font-weight: bold;
+  color: #fff;
  
 }
 .toolbar .btn:hover{
@@ -12,23 +13,65 @@
 }
 .toolbar .logo{
   height: 64px;
+  margin-right: 10px;
+  border-left: 2px solid #fff;
+  border-right: 2px solid #fff;
 }
 .btn img{
   width: 30px;
+  border: 2px solid #fff;
+  background-color: aliceblue;
+  border-radius: 2px;
 }
 .header-comp{
   display: flex;
   align-items: center;
 }
-.Header{
-  background-color: #fff !important;
+.menu-items{
+  display: flex;
 }
+.Header{
+  background-color: #1C75BC !important;
+  border-bottom: 2px solid #fff;
+  
+}
+.menu{
+  height: 64px;
+  display: none;
+}
+
 @media only screen and (max-width:768px) {
-  .header-comp .logo{
-    background-color: #fff;
+ 
+  .menu-items{
+    display: block;
+  }
+  .visible{
+    display: block;
+  }
+  .hidden{
+    display: none;
+  }
+  .toolbar .logo{
+   border: none;
   }
   .header-comp{
     display: block;
+    width: 100%;
   }
- 
+  header .container{
+    padding: 0;
+    background-color: #1C75BC;
+  }
+  .css-hyum1k-MuiToolbar-root {
+    padding: 0 !important;
+  }
+  .logo-container{
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid #fff;
+  }
+  .menu{
+    display: block;
+    margin-left: auto;
+  }
 }
